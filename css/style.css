@@ -252,13 +252,31 @@ img {
 }
 
 .area-post {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    color: var(--White);
-    gap: 40px;
-    padding-top: 120px;
-    padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  color: var(--White);
+  gap: 40px;
+  padding-top: 120px;
+  max-width: 1180px;
+  padding-bottom: 80px;
+  justify-items: center;
+  background-position: 15px 85px;
+  position: relative;
 }
+
+
+.area-post::before{
+  content: '';
+  background: url('../images/bg-quotes.png') no-repeat center center/contain ;
+  width: 55px;
+  height: 45px;
+  position: absolute;
+  top: 85px;
+  z-index: 0;
+  left: 20px;
+  display: inline-block;
+}
+
 
 .area-autor {
     display: flex;
@@ -269,6 +287,8 @@ img {
 .post-comentario {
     background: var(--DarkBlue);
     padding: 30px 24px;
+    max-width: 360px;
+    z-index: 1;
 }
 
 .publication{
@@ -466,6 +486,14 @@ img {
   }
   .text-green{
     font-size: 0.75rem;
+  }
+  .post-comentario{
+    max-width: inherit;
+  }
+  .area-post::before{
+    top: 50px;
+    width: 32px;
+    height: 50px;
   }
   .main-cont::after{
     background: url('../images/bg-curvy-mobile.svg') no-repeat;
