@@ -3,12 +3,12 @@
 </h1>
 
 <p align="center">
-  <img alt="" src="https://github.com/bernardocostaa/Fylo/blob/main/templete.jpg" width="100%">
+  <img alt="" src="https://github.com/bernardocostaa/Fylo-Dark/blob/main/templete.jpg" width="100%">
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://bernardocostaa.github.io/Fylo/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="https://bernardocostaa.github.io/Fylo-Dark/">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -24,7 +24,7 @@ Esse projeto está sendo desenvolvido com as seguintes tecnologias:
 
 ## 🚧 Projeto:
 
-Link do Projeto: [Fylo](https://bernardocostaa.github.io/Fylo/)
+Link do Projeto: [Fylo Dark](https://bernardocostaa.github.io/Fylo-Dark/)
 
 
 ## :memo: Licença
